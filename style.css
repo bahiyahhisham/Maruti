@@ -1,0 +1,278 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Reset spacing between navbar and hero section */
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.hero {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Remove padding that appears on smaller screens */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+  }
+  header {
+    position: relative;
+    border-bottom: solid 1px #ccc;
+    
+  padding: 15px 0;
+}
+header .logoWrapper, header .navWrapper, header .utilityWrapper {
+  padding: 0;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.navbar-header {
+  margin-top: 15px;
+}
+@media (min-width: 768px) {
+  .col-md-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+  }
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.col-md-7{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+  }
+}
+header .utilityWrapper {
+  float: right;
+}
+body.arenahomepage span#disclaimer_popup {
+  display: block !important;
+}
+header .utilityWrapper .utilityItems {
+  margin: 0;
+  list-style-type: none;
+  float: left;
+  
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  header .utilityWrapper .utilityItems {
+      padding: 0;
+  }
+}
+header .utilityWrapper .utilityItems li {
+  float: left;
+  position: relative;
+}
+header .utilityWrapper .utilityItems li.phone {
+  padding: 5px 10px;
+  margin: 0 5px 0 10px;
+  border: 1px solid #d6d6d6;
+  margin-right: 5px;
+  position: relative;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header nav.primaryNav .site-nav {
+  text-align: center;
+}
+header .utilityWrapper {
+  float: right;
+}
+header nav.primaryNav .site-nav > ul > li {
+  display: inline-block;
+  font-family: "Lato Regular", sans-serif;
+  text-align: center;
+}
+header nav.primaryNav .site-nav > ul .wrap {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+header nav.primaryNav .site-nav > ul .wrap > a {
+  line-height: 1;
+  font-size: 12px;
+  cursor: pointer;
+  color: #000;
+  white-space: nowrap;
+  -webkit-transition: color .2s, opacity .2s;
+  transition: color .2s, opacity .2s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  header nav.primaryNav .site-nav ul.primary-nav-mobile {
+      margin: 0;
+  }
+}
+
+div#sidebarNav {
+    opacity: 1;
+}
+  /* Hero Section */
+  .hero {
+    height: 90vh;
+    background: url('maruti_images/Banner-1.png') no-repeat center center/cover;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+
+  /* Car Section */
+  #cars .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #cars .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Booking Form */
+  form input,
+  form select {
+    max-width: 600px;
+    margin: auto;
+    display: block;
+  }
+  
+  form button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  @media (min-width:768px) {
+    .col-md-2{
+      flex:0 0 16.666667%;
+      max-width: fit-16.666667%;
+    }
+  }
+  @media (min-width: 768px) {
+    .col-md-7 {
+        
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  header nav.primaryNav {
+      margin-top: 20px;
+  }
+}
+
+footer a:hover {
+  color: #f0ad4e !important;
+  text-decoration: underline;
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  header nav.primaryNav .site-nav > ul .wrap {
+      padding: 0 7px;
+  }
+}
+header nav.primaryNav .site-nav > ul .wrap {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+}
+header .utilityWrapper .utilityItems li {
+  float: left;
+  position: relative;
+}
+header .utilityWrapper .utilityItems li a .utilityicon {
+  font-size: 16px;
+  color: #2d3393;
+  font-weight: 600;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+ul.primary-nav-mobile li:last-child .wrap a>span:after {
+  position: absolute;
+  content: '';
+  width: 79px;
+  height: 12px;
+  background: url(maruti_images/maruti-engage-logo-new_final.png) 0 0 / 79px 12px no-repeat #fff;
+  left: 0;
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  header nav.primaryNav .site-nav ul.primary-nav-mobile {
+      margin: 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  header nav.primaryNav {
+      margin-top: 20px;
+  }
+}
